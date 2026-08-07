@@ -7,8 +7,8 @@ router = APIRouter()
 @router.get("/")
 def read_reservations():
     return {
-        "message": "예약 목록 조회 API"
-        "items": []
+        "message": "예약 목록 조회 API",
+        "items": [],
     }
 
 @router.post("/")
